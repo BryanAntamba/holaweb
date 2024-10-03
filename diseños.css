@@ -1,0 +1,78 @@
+/*usaremos margin-top para que todo el texto de la pagina valla para la izquierda*/
+/*margin-left para que la imagen que esta dentro del body de html valla a la izquierda*/
+/*color especifica cambiar todo el texto en color celeste*/
+body {
+    margin-top: 200px;
+    margin-left: 100px;
+    color: rgb(11, 229, 233);
+}
+
+/* todos los h1 que tengan nuestro html cambiaran de color total mente */
+/*font size para dar la dimensión de las palabras*/
+h1 {
+    color: rgb(15, 0, 177);
+    font-size: 50px;
+}
+/*la etiqueta P indica que todas las etiquetas P se cambian de color verde*/
+/*El text/align nos ayudara a establecer la alineación central*/
+/*font size nos ayuda para dar el tamaño de pixeles deseado*/
+/*color es para dar el color al las palabras*/
+p {
+    text-align: center;
+    font-size: 15px;
+    color: rgb(39, 197, 25);
+}
+
+/*Usamos .parrafo para crear una clase la cual utilizaremos en nuestro archivo index.html*/
+.parrafo {
+    color: black;
+    font-size: 20px;
+    text-align: left;
+}
+
+/*Uso de # más una palabra para crear un id personal e irrepetible el cual utilizaremos en nuestro archivo html*/
+#contenedor {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-align: center;
+}
+
+/*estilos universales
+aplican a todos nuestros componentes de html*/
+* {
+    margin: 10px;
+    font-size: 15px;
+    color: black;
+    /*Se usa el elemento background-color para definir el color del fondo de algun elemento*/
+    background-color: beige;
+}
+
+/*width lo usaremos para establecer la anchura de visualización de la imagen*/
+/*y el atributo height establece la altura de visualización de la imagen.*/
+div {
+    width: 100%;
+    border: 1px solid;
+}
+
+.logo {
+    width: 50%;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.menu {
+    width: 50%;
+    border: 1px solid rgb(0, 0, 0);
+    color: white;
+}
+
+/*Se utiliza el text-decoration para establecer el formato de nuestro texto sobre el subrayado, el dotted genera un subrayado de puntos*/
+a {
+    text-decoration: dotted;
+    color: white;
+}
+
+/*Se le considera una pseudo-clase para referirnos a un estado específico sobre nuestro archivo html*/
+ul, a, li {
+    text-decoration: none;
+    color: pink;
+}
