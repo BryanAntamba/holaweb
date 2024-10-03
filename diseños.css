@@ -4,9 +4,8 @@
 body {
     margin-top: 200px;
     margin-left: 100px;
-    color: rgb(11, 229, 233);
+    color: rgb(255, 255, 255);
 }
-
 /* todos los h1 que tengan nuestro html cambiaran de color total mente */
 /*font size para dar la dimensión de las palabras*/
 h1 {
@@ -22,21 +21,18 @@ p {
     font-size: 15px;
     color: rgb(39, 197, 25);
 }
-
 /*Usamos .parrafo para crear una clase la cual utilizaremos en nuestro archivo index.html*/
 .parrafo {
     color: black;
     font-size: 20px;
     text-align: left;
 }
-
 /*Uso de # más una palabra para crear un id personal e irrepetible el cual utilizaremos en nuestro archivo html*/
 #contenedor {
-    color: rgb(255, 255, 255);
+    color: rgb(255, 248, 37);
     font-size: 25px;
     text-align: center;
 }
-
 /*estilos universales
 aplican a todos nuestros componentes de html*/
 * {
@@ -44,35 +40,33 @@ aplican a todos nuestros componentes de html*/
     font-size: 15px;
     color: black;
     /*Se usa el elemento background-color para definir el color del fondo de algun elemento*/
-    background-color: beige;
+    background-color: rgb(25, 208, 208);
 }
-
 /*width lo usaremos para establecer la anchura de visualización de la imagen*/
 /*y el atributo height establece la altura de visualización de la imagen.*/
 div {
     width: 100%;
     border: 1px solid;
 }
-
+/*Uso de una clase para dar tamaño de ancho y tamaño del titulo de la pagina web de html*/
 .logo {
     width: 50%;
     border: 1px solid rgb(0, 0, 0);
 }
-
+/*Usaremos una clase llamada .menu para dar color tanto al texto como el borde a la lista desordenada*/
+/*width es para dar el ancho al elemento*/
 .menu {
     width: 50%;
     border: 1px solid rgb(0, 0, 0);
     color: white;
 }
-
 /*Se utiliza el text-decoration para establecer el formato de nuestro texto sobre el subrayado, el dotted genera un subrayado de puntos*/
 a {
     text-decoration: dotted;
     color: white;
 }
-
 /*Se le considera una pseudo-clase para referirnos a un estado específico sobre nuestro archivo html*/
 ul, a, li {
     text-decoration: none;
-    color: pink;
+    color: rgb(255, 255, 255);
 }
